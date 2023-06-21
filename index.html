@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link rel="stylesheet" href="https://use.typekit.net/fii5llg.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>valerie✢williams</title>
+
+</head>
+
+<body>
+
+    <nav>
+        <div id="logo-img">
+            <a href="index.html">
+                ✶ valerie-williams ✶
+            </a>
+        </div>
+        <div>
+            <ul>
+                <li>
+                    <a href="index.html">home ✦ </a>
+                </li>
+                <li>
+                    <a href="experience.html">experience ✦ </a>
+                </li>
+                <li>
+                    <a href="projects.html">projects ✦</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- <div id="mobile-banner">
+        <img class="mobile-image" src="assets/logo.png">
+    </div> -->
+    
+    <div id="banner">
+        <!-- <img class="banner-image" src="assets/hero.png"> -->
+        <div class="banner-title">✹ valerie-williams ✹</div>
+        <a href="www.instagram.com/valrrrie">contact me!</a>
+        <br>
+    </div>
+
+    <main>
+        <!-- collapsible menu 1: about -->
+        <button type="button" class="collapsible">ABOUT</button>
+        <div class="content">
+            <p>hi!</p>
+            <p>i'm an incoming sophomore in college studying computer science and math! :-)</p>
+        </div>
+
+        <!-- collapsible menu 2: ed + exp-->
+        <button type="button" class="collapsible">EDUCATION + EXPERIENCE</button>
+        <div class="content">
+            <p>✴INCOMING SOPHOMORE AT AACC</p>
+            <p>-GPA: 4.0 </p>
+            <p>-Relevant Coursework: Computer Science 1 OOP, Computer Science 2 DSA, Calculus 1, Calculus 2, Physics 1</p>
+            <p>✴JUNIOR SOFTWARE ENGINEER @ PHOENIX INTERNATIONAL</p>
+            <p>-Developed software to track company-wide goals and metrics</p>
+            <p>-Developed new features for the payroll application to handle government contracted work</p>
+            <p>-Developed an internal job change program to keep track of employee documents</p>
+            <p>✴GAME DEVELOPMENT: "FLOWER CAFE" ON APPLE APP STORE, "TAKE-PAUSE" VIRTUAL REALITY MEDITATION</p>
+            <p>✴INTERN AT TAKE-PAUSE NYC</p>
+            <p>-Redesigned website, used Unity to develop a virtual reality wellness app for teens </p>
+            <p>✴FREELANCE WEB DESIGN</p>
+            <p>✴STUDENT INSTRUCTOR/TA FOR CHEMISTRY 1</p>
+            <p>✴TUTOR FOR MATH (PRE-CALC & CALCULUS 1) + COMPUTER SCIENCE (COMP SCI 1)</p>
+            <p>✴HIGH SCHOOL STATS:
+            <p>-GPA: 4.2 </p>
+            <p>-ACTIVITIES: STUDENT GOVERNMENT VP, RHO KAPPA TREASURER, SCIENCE HONORS SOCIETY, MATH HONORS SOCIETY, </p>
+            <p>ART HONORS SOCIETY, NATIONAL HONORS SOCIETY, PSYCHOLOGY CLUB, CYBER SECURITY CLUB </p>
+        </div>
+
+        <!-- collapsible menu 3: skills-->
+        <button type="button" class="collapsible">SKILLS</button>
+        <div class="content">
+            <p>PROGRAMMING LANGUAGES: C++, SQL, JAVA, HTMl, CSS, JAVASCRIPT, VISUAL BASIC</p>
+            <p>SOFTWARE: PHOTOSHOP, ILLUSTRATOR, FIGMA, MICROSOFT SUITE</p>
+        </div>
+
+        <!-- script for the collapsibles + slideout menu-->
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                  content.style.display = "none";
+                } else {
+                  content.style.display = "block";
+                }
+              });
+            }
+        </script>
+
+    <footer>
+        <p>made with ♡ by valerie williams</p>
+        <p>insta: @valrrrie</p>
+        <p>vsco: @valerielw</p>
+    </footer>
+
+</main>
+</body>
+
+
+</html>
